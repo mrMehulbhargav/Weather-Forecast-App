@@ -54,11 +54,6 @@ A weather application that provides current weather details and a 7-day forecast
 - **View Current Weather**: See the temperature, humidity, wind speed, and current weather icon.
 - **Weekly Forecast**: Scroll down to see the 7-day forecast with custom icons and temperature ranges.
 
-## Screenshots
-
-### Main Interface
-![Main Interface](images/screenshot.png) <!-- Replace this with an actual screenshot file if available -->
-
 ## Contact
 
 Developed by Mehul Bhargav
@@ -67,10 +62,6 @@ Developed by Mehul Bhargav
 - **LinkedIn**: [mrmehulbhargav](https://www.linkedin.com/in/mrmehulbhargav)
 - **GitHub**: [mrMehulbhargav](https://github.com/mrMehulbhargav)
 - **LeetCode**: [mrmehulbhargav](https://leetcode.com/u/mrmehulbhargav/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
