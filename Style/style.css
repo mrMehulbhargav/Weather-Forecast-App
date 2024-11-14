@@ -1,0 +1,84 @@
+.body, html {
+    background-color: #352F5B;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    color: white;
+}
+
+.container-fluid {
+    flex: 1;
+}
+
+#heading {
+    color: white;
+}
+
+.weather-card {
+    background-color: #413066;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#city-input {
+    background-color: #2A2649;
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.search-button {
+    background-color: #5248B7;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+
+.weather-stats {
+    font-size: 0.9em;
+}
+
+#weekly-forecast {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.weekday-forecast {
+    background-color: #2A2649;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    min-width: 60px;
+}
+
+footer {
+    background-color: #2E2359;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #413066;
+}
+
+footer a {
+    color: #A5A5A5;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}

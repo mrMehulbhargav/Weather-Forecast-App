@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="body">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <center>
+                        <div class="weather-card p-4">
+                            <h1 id="heading">Weather App</h1>
+                            <div class="search-bar mb-3">
+                                <input type="text" id="city-input" class="form-control text-white" placeholder="Enter city name">
+                                <button onclick="getWeatherByCity()" class="btn btn-dark search-button">Search</button>
+                            </div>
+                            <div id="weather-result" class="mt-4">
+                                <h2 id="city-name" class="text-white"></h2>
+                                <div class="current-weather d-flex align-items-center justify-content-center">
+                                    <img id="weather-icon" alt="Weather Icon" style="max-width: 100px;">
+                                    <div class="temp-details">
+                                        <h3 id="temperature" class="text-white"></h3>
+                                        <div class="weather-stats">
+                                            <p id="humidity" class="text-white"></p>
+                                            <p id="wind-speed" class="text-white"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="text-white">Weekly Forecast</h5>
+                                <div id="weekly-forecast" class="d-flex justify-content-center">
+                                    <!-- Forecast data will be dynamically inserted here -->
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Developed by Mehul Bhargav</p>
+        <p>
+            <a href="https://www.linkedin.com/in/mrmehulbhargav" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mrMehulbhargav" target="_blank">GitHub</a> |
+            <a href="https://leetcode.com/u/mrmehulbhargav/" target="_blank">LeetCode</a>
+        </p>
+    </footer>
+
+    <script src="js/Script.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
